@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  padding: 0 20px;
+}
+
+.slide {
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff9f5;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+.slide h3 {
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  margin: 0;
+  opacity: 0;
+}
+
+.slide.active {
+  flex: 5;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+.chocolate-cake {
+  background-image: url(../images/ChocolateCake.jpg);
+}
+
+.cristmas-pie {
+  background-image: url(../images/CristmasPie.jpg);
+}
+
+.boho-cake {
+  background-image: url(../images/BohoCake.jpg);
+}
+
+.wedding-cake {
+  background-image: url(../images/WeddingCake.jpg);
+}
+
+.raspberry-cake {
+  background-image: url(../images/RaspberryCake.jpg);
+}
