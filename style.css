@@ -19,6 +19,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #515151;
+  background-color: #616161;
   color: #fff;
+  margin-top: 15px;
 }
