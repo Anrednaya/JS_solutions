@@ -2,28 +2,80 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/style/style.css">
-  <title>Slides</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/style.css" />
+  <title>Slider</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="slide chocolate-cake">
-      <h3>Chocolate Cake</h3>
+    <div class="sidebar">
+      <div style="
+            background: linear-gradient(229.99deg, #da14bf -26%, #670272 145%);
+          ">
+        <h1>Sharp Violet</h1>
+        <p>magnetic colors</p>
+      </div>
+      <div style="
+            background: linear-gradient(215.32deg, #f9b3d8 -1%, #960954 124%);
+          ">
+        <h1>Sweet Pink</h1>
+        <p>magnetic colors</p>
+      </div>
+      <div style="
+            background: linear-gradient(221.87deg, #60b6f4 1%, #196c92 128%);
+          ">
+        <h1>Fresh Blue</h1>
+        <p>magnetic colors</p>
+      </div>
+      <div style="
+            background: linear-gradient(220.16deg, #43fcf3 -8%, #005556 138%);
+          ">
+        <h1>Iced Green</h1>
+        <p>magnetic colors</p>
+      </div>
+      <div style="
+            background: linear-gradient(220.16deg, #ffe101 -8%, #c77700 138%);
+          ">
+        <h1>Bright Yellow</h1>
+        <p>magnetic colors</p>
+      </div>
+      <div style="
+            background: linear-gradient(220.16deg, #f7445f -8%, #91173a 138%);
+          ">
+        <h1>Delicious Red</h1>
+        <p>magnetic colors</p>
+      </div>
     </div>
-    <div class="slide boho-cake ">
-      <h3>Boho Cake</h3>
+    <div class="main-slide">
+      <div style="
+            background-image: url('./assets/images/red.jpg');
+          "></div>
+      <div style="
+            background-image: url('./assets/images/yellow.jpg');
+          "></div>
+      <div style="
+            background-image: url('./assets/images/green.jpg');
+          "></div>
+      <div style="
+            background-image: url('./assets/images/blue.jpg');
+          "></div>
+      <div style="
+            background-image: url('./assets/images/pink.jpg');
+          "></div>
+      <div style="
+            background-image: url('./assets/images/violet.jpg');
+          "></div>
     </div>
-    <div class="slide cristmas-pie">
-      <h3>Cristmas Pie</h3>
-    </div>
-    <div class="slide wedding-cake">
-      <h3>Wedding Cake</h3>
-    </div>
-    <div class="slide raspberry-cake">
-      <h3>Raspberry Cake</h3>
+    <div class="controls">
+      <button class="down-button">
+        <i class="fas fa-arrow-down"></i>
+      </button>
+      <button class="up-button">
+        <i class="fas fa-arrow-up"></i>
+      </button>
     </div>
   </div>
   <script src="./assets/script/script.js"></script>
